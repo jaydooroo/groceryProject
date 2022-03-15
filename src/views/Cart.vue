@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="products">
       <div v-if="isSuccess">
-        <h1>Your SHopping Cart</h1>
+        <h1>Your Shopping Cart</h1>
         <div
           class="product"
           v-for="product in this.$root.$data.cart"
@@ -55,7 +55,6 @@ export default {
 </script>
 <style scoped>
 .wrapper {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -63,7 +62,7 @@ export default {
 .products {
   margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -87,7 +86,7 @@ export default {
 }
 
 .info {
-  background: #f2921d;
+  background: rgb(178, 178, 223);
   color: #000;
   padding: 10px 30px;
   height: 80px;
