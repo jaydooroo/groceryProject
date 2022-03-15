@@ -22,6 +22,13 @@
       </div>
     </div>
     <router-view />
+     <footer>
+          Contact Info: abcd@gamil.com  
+          <br>
+          Phone Number: +1) 805-999-9999 
+          <br>
+          github:<a href = https://github.com/jaydooroo/groceryProject.git>https://github.com/jaydooroo/groceryProject.git</a>
+      </footer>
   </div>
 </template>
 <style>
@@ -76,5 +83,13 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+footer{
+    height: 100px;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: medium;
+    color: rgb(27, 25, 25);;
+    font-weight: bold;
+    text-align: center;
 }
 </style>
